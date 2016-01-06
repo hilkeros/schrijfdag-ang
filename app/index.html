@@ -2,41 +2,310 @@
 <html lang="en" ng-app="phonecatApp">
 <head>
   <meta charset="utf-8">
-  <title>Google Phone Gallery</title>
+  <title>Schrijfdag 2016</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link href="http://fonts.googleapis.com/css?family=Cabin:600,700|PT+Sans:400,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/angular/angular.js"></script>
   <script src="js/controllers.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
 </head>
 <body ng-controller="PhoneListCtrl">
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-2">
-        <!--Sidebar content-->
+  <body>
+    <nav class="navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand"><img src="img/SCHRIJFDAGLOGO.png"></a>
+        </div>
 
-        Search: <input ng-model="query">
-        Sort by:
-        <select ng-model="orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="age">Newest</option>
-        </select>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#programma">Programma</a></li>
+            <li><a href="#praktisch">Praktisch</a></li>
+            <li><a href="#inschrijven">Inschrijven</a></li>
+          </ul>
 
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    <div class="campagnebeeld">
+      <div class="container">
+        <h1>Schrijfdag 2016</h1>
+        <h2>C-Mine Genk</h2>
+        <h4>21 maart 2016</h4>
       </div>
-      <div class="col-md-10">
-        <!--Body content-->
+    </div>
 
-        <ul class="phones">
-          <li ng-repeat="phone in phones | filter:query | orderBy:orderProp" class="thumbnail">
-            <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
-            <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
-            <p>{{phone.snippet}}</p>
-          </li>
-        </ul>
+    <div id ="programma" class="container separator">
+      <h1>Programma</h1>
+      <p><a href="#timetable">Klik hier voor het dagschema.</a></p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-6 col-md-6">
+            <h2>Workshops</h2>
+          </div>
+        </div>
+
+        <div class="patat row">
+          <div class="filler col-md-6">
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="img/piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#hoedje" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="filler col-md-6">
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h2>Gesprekken en debatten</h2>
+          </div>
+        </div>
+
+        <div class="patat row">
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#hoedje" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="filler col-md-6">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-6 col-md-6">
+            <h2>Literair spreekuur</h2>
+          </div>
+        </div>
+
+        <div class="patat row">
+          <div class="filler col-md-6">
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#hoedje" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="filler col-md-6">
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="panel">
+              <div class="title">
+                <a href="#detail" class="panel-click">Columns: van idee tot resultaat</a>
+              </div>
+              <a href="#detail" class= "panel-click"><img src="piano.png"></a>
+              <div class="description">
+                Hoe schrijf je een column? Wat maakt de vorm en de inhoud leesbaar, verteerbaar, interessant, geestig, kritisch of cassant? Is een opiniestuk trouwens altijd een column? Een anekdote met commentaar of een bijgedachte? Hoe doen de beste columnisten het? En wat kunnen we van hen leren? Els De Pauw leert je de knepen van de columnkunst en zet je op eg om zelf je eerste memorabele column te schrijven.
+              </div>
+              <div class="bio">
+                <strong>Els De Pauw</strong> publiceert columns onder haar eigen naam en onder haar 'nom de plume' Amélie O. In 2004 verschenen haar pikante en uiterst grappige columns in de bundel 'Zaad op mijn huid', uitgegeven bij Van Halewyck. In 2013 verscheen een herdruk.<br>
+                <div class="hoedje"><a href="#detail" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
-  </div>
+
+    <div id="praktisch" class="container separator">
+      <h1>Praktisch</h1>
+      <p>Hier moet alle praktische informatie komen.</p>
+      <div class="timetable" id="timetable"></div>
+      <script>
+      var timetable = new Timetable();
+
+      timetable.setScope(9,18);
+
+      timetable.addLocations(['Balzaal', 'Theaterzaal', 'Workshopzalen', 'Café Vooruit', 'Wintertuin']);
+
+      timetable.addEvent('Openingsmoment', 'Theaterzaal', new Date(2015,7,17,10,00), new Date(2015,7,17,10,30), '#');
+      timetable.addEvent('Schrijven achter de schermen', 'Theaterzaal', new Date(2015,7,17,10,30), new Date(2015,7,17,11,15), '#');
+      timetable.addEvent('Crowdfunding: ei van Columbus?', 'Theaterzaal', new Date(2015,7,17,11,30), new Date(2015,7,17,12,45), '#');
+      timetable.addEvent('Debutantenbal', 'Theaterzaal', new Date(2015,7,17,14,00), new Date(2015,7,17,15,00), '#');
+      timetable.addEvent('Lunch', 'Balzaal', new Date(2015,7,17,12,45), new Date(2015,7,17,14,00), '#');
+      timetable.addEvent('Receptie', 'Balzaal', new Date(2015,7,17,17,15), new Date(2015,7,17,18,00), '#');
+      timetable.addEvent('Eerste reeks workshops', 'Workshopzalen', new Date(2015,7,17,10,00), new Date(2015,7,17,12,45), '#');
+      timetable.addEvent('Tweede reeks workshops', 'Workshopzalen', new Date(2015,7,17,14,00), new Date(2015,7,17,16,45), '#');
+
+
+
+      var renderer = new Timetable.Renderer(timetable);
+      renderer.draw('.timetable');
+    </script>
+    </div>
+
+    <div id="inschrijven" class="container separator">
+      <h1>Inschrijven</h1>
+      <p>Hier moet het formulier komen van Formdesk.</p>
+    </div>
+
 
 </body>
 </html>
