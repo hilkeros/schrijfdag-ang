@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var SchrijfdagApp = angular.module('SchrijfdagApp', ['ngSanitize']);
+var SchrijfdagApp = angular.module('SchrijfdagApp', ['ngSanitize', 'ui.bootstrap']);
 
 SchrijfdagApp.controller('WorkshopsCtrl', ['$scope', '$http', function($scope, $http) {
   $http.get('workshops.json').success(function(data) {
@@ -29,4 +29,8 @@ SchrijfdagApp.controller('WorkshopsCtrl', ['$scope', '$http', function($scope, $
   }
 
 }]);
+
+SchrijfdagApp.controller('NavBarCtrl', function($scope) {
+  $scope.isCollapsed = true;
+});
 
