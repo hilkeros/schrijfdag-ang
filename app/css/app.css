@@ -7,7 +7,7 @@ body {
     font-weight: 400;
 }
 
-a, a:hover {
+a, a:hover, a:visited {
   color: #424242;
   font-weight: 700;
 }
@@ -71,7 +71,7 @@ h1, h2 {
   background-color: #ffffff;
   border: 1px solid #efefef;
   box-shadow: 0 0 1px 0 rgba(0,0,0,.1);
-  width: 260px;
+  min-width: 260px;
   margin-bottom: 20px;
   padding: 10px;
   text-align: center;
@@ -102,7 +102,7 @@ h1, h2 {
 }
 
 .description, .bio {
-  display: none;
+  /*display: none;*/
   margin-top: 20px;
   text-align: left;
 }

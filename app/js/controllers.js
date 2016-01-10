@@ -2,12 +2,31 @@
 
 /* Controllers */
 
-var phonecatApp = angular.module('phonecatApp', []);
+var SchrijfdagApp = angular.module('SchrijfdagApp', ['ngSanitize']);
 
-phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {
-  $http.get('phones/phones.json').success(function(data) {
-    $scope.phones = data;
+SchrijfdagApp.controller('WorkshopsCtrl', ['$scope', '$http', function($scope, $http) {
+  $http.get('workshops.json').success(function(data) {
+    $scope.workshops = data;
   });
 
-  $scope.orderProp = 'age';
+  $scope.fillerClass = "col-md-6";
+  $scope.workshopContainerClass = "col-md-6";
+  $scope.unselectedPanel ="col-md-6";
+  $scope.selectedWorkshop = null;
+
+  $scope.toggleDetail = function(workshop){
+    if ($scope.selectedWorkshop === workshop) {
+      $scope.selectedWorkshop = null;
+      $scope.fillerClass = "col-md-6";
+      $scope.workshopContainerClass = "col-md-6";
+      $scope.unselectedPanel ="col-md-6";
+    } else {
+      $scope.selectedWorkshop = workshop;
+      $scope.fillerClass = "col-md-3";
+      $scope.workshopContainerClass = "col-md-9";
+      $scope.unselectedPanel ="col-md-4";
+    }
+  }
+
 }]);
+
