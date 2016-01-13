@@ -25,9 +25,10 @@ h4 {
   margin-bottom: 30px;
 }
 
-#locatie img {
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+.anchor {
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 .navbar-default {
@@ -79,6 +80,15 @@ h4 {
 
 #programma h2 {
   color: rgb(237,28,37);
+}
+
+#locatie, #inschrijven {
+  min-height: 100vh;
+}
+
+#locatie img {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .panel {

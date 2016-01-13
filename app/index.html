@@ -50,7 +50,7 @@
     </div>
   </div>
 
-  <div id ="programma" class="container separator">
+  <div id ="programma" class="container anchor separator">
     <h1>Programma</h1>
     <p><a href="#timetable">Klik hier voor het dagschema.</a></p>
 
@@ -322,43 +322,124 @@
       </div>
     </div>
 
-    <div class="container separator" id="timetable">
+    <div class="container anchor separator" id="timetable">
       <h2>Dagschema</h2>
-      <div class="timetable" id="timetable"></div>
-        <script>
-          var timetable = new Timetable();
-
-          timetable.setScope(9,18);
-
-          timetable.addLocations(['Balzaal', 'Theaterzaal', 'Workshopzalen', 'Café Vooruit', 'Wintertuin']);
-
-          timetable.addEvent('Openingsmoment', 'Theaterzaal', new Date(2015,7,17,10,00), new Date(2015,7,17,10,30), '#');
-          timetable.addEvent('Schrijven achter de schermen', 'Theaterzaal', new Date(2015,7,17,10,30), new Date(2015,7,17,11,15), '#workshop-0');
-          timetable.addEvent('Crowdfunding: ei van Columbus?', 'Theaterzaal', new Date(2015,7,17,11,30), new Date(2015,7,17,12,45), '#');
-          timetable.addEvent('Debutantenbal', 'Theaterzaal', new Date(2015,7,17,14,00), new Date(2015,7,17,15,00), '#');
-          timetable.addEvent('Lunch', 'Balzaal', new Date(2015,7,17,12,45), new Date(2015,7,17,14,00), '#');
-          timetable.addEvent('Receptie', 'Balzaal', new Date(2015,7,17,17,15), new Date(2015,7,17,18,00), '#');
-          timetable.addEvent('Eerste reeks workshops', 'Workshopzalen', new Date(2015,7,17,10,00), new Date(2015,7,17,12,45), '#');
-          timetable.addEvent('Tweede reeks workshops', 'Workshopzalen', new Date(2015,7,17,14,00), new Date(2015,7,17,16,45), '#');
-
-          var renderer = new Timetable.Renderer(timetable);
-          renderer.draw('.timetable');
-        </script>
+      <table class="table table-bordered">
+        <tr><th colspan="4"><center>Onthaal met koffie (10-10.30u)</center></th></tr>
+        <tr><th colspan="4"><center>Openingsmoment (10.30-10.45u)</center></th></tr>
+        <tr>
+          <td rowspan="2">
+            <strong>Workshops (11-13u)</strong>
+            <ul>
+              <li>Chicklit - Nele Reymen (i.s.m. WISPER)</li>
+              <li>The Write Stuff - Frederik Willem Daem</li>
+              <li>Vreemd in het schrijven - Mustafa Kör</li>
+              <li>Columns - Margot Vanderstraeten</li>
+              <li>Schrijf een stripverhaal - Kristof Spaey en Bart Vaessens</li>
+              <li>Communiceer creatief in zakelijke teksten - Erik Vanhee</li>
+              <li>Schrijfwandeling: 'Eeuwig water in Termien'</li>
+              <li>Schrijfwandeling: 'Oude aarde: het Genkse mijnverleden vroeger en nu'</li>
+            </ul>
+          </td>
+          <td rowspan="2">
+            <strong>Lezingen (11-13u)</strong>
+            <ul>
+              <li>Schrijven voor kinderen en jongeren - Kaat Vrancken</li>
+              <li>Verkoop jezelf - Véronique Hoex</li>
+            </ul>
+          </td>
+          <td>
+            <strong>Infosessie (11-12u)</strong>
+            <ul>
+              <li>Fantasy: verbeelding aan de macht</li>
+            </ul>
+          </td>
+           <td rowspan="2">
+            <strong>Doorlopend (11-16.30u)</strong>
+            <ul>
+              <li>Literair spreekuur (feedback op je tekst)</li>
+              <li>Pitch bij een uitgever</li>
+              <li>Slow Writing Room</li>
+              <li>DIY met Ward Zwart</li>
+              <li>Boekenstand Malpertuis + signeersessies</li>
+              <li>Studenten Basisjaar Literair Schrijven stellen tentoon</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Infosessie (12-13u)</strong>
+            <ul>
+              <li>Uitgeven in eigen beheer</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <center><strong>Lunch (10.30-10.45u)</strong><br/>
+            Poëtische speeddates Pazzi di Parole</center>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <strong>Workshops (14-16.30u)</strong>
+            <ul>
+              <li>13.30-16.30u! Ondergronds schrijven (voor gevorderden) - Leen van den Berg</li>
+              <li>Schrijven met smaak - Kathy Mathys</li>
+              <li>Flitsverhalen - David Troch en Iris Verhoeven (i.s.m. WISPER)</li>
+              <li>Music of Writing (voor gevorderden) - Ignacio Ferrando</li>
+              <li>Schrijfwandeling: 'Jong talent zet Genk in vuur en vlam'</li>
+              <li>Schrijfwandeling: 'De Genkse Terril: woeste hoogte'</li>
+            </ul>
+          </td>
+          <td rowspan="2">
+            <strong>Lezingen (14-16.30u)</strong>
+            <ul>
+              <li>De kunst van de autobiografie - Özcan Akyol</li>
+              <li>Storytelling in Games - Eric Taelman en Joost Vandecasteele</li>
+              <li>Saskia De Coster</li>
+              <li>Uit je mening - Guillaume Van der Stighelen</li>
+            </ul>
+          </td>
+          <td>
+            <strong>Infosessies (14-15u)</strong>
+            <ul>
+              <li>To blog or not to blog? Met o.a. Aya Sabi en Bart Vermeer</li>
+              <li>Van kleine vergoeding tot auteursrecht - t-heater</li>
+            </ul>
+          </td>
+          <td rowspan="2"></td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Interview (15-16u)</strong>
+            <ul>
+              <li>Stijn Meuris: tekst en uitleg</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <center><strong>Slotmoment met o.a. Jee Kast</strong><br/>
+            + receptie (16.45-18u)</center>
+          </td>
+        </tr>
+      </table>
     </div>
 
 
-  <div id="locatie" class="container separator">
+  <div id="locatie" class="container anchor separator">
     <h1>Locatie: C-Mine</h1>
     <p>28 jaar geleden sloot de laatste steenkoolmijn in Winterslag bij Genk. Ondertussen is de voormalige mijnsite omgebouwd tot een <strong>hippe hotspot</strong> waar kunst, design en creativiteit centraal staan. Een site die creativiteit produceert en die je inspireert. Laat je zeker ook even verdwalen in het <a href="http://www.c-mine.be/Bezoek/Toerisme/Labyrint">Labyrint</a>, 1 km stalen gangen opgesteld voor de ingang van het cultuurcentrum. Een creatie van kunst-en architectenduo Gijs Van Vaerenbergh.</p>
 
-    <h4>Hoe bereik je <a href="http://c-mine.be/contact_info/routebeschrijving">Cultuurcentrum C-Mine</a>?</h4>
+    <h4>Hoe bereik je <a href="http://www.c-mine.be/Contact_Info/Routebeschrijving" target="_blank">Cultuurcentrum C-Mine</a>?</h4>
     <p>C-mine cultuurcentrum, Evence Coppeelaan 91, 3600 Genk</p>
 
-    <p><img src="img/Locatie-C-mine.jpg"></p>
+    <p><a href="http://c-mine.be/Contact_Info/Routebeschrijving" target="_blank"><img src="img/Locatie-C-mine.jpg"></a></p>
 
   </div>
 
-  <div id="inschrijven" class="container separator">
+  <div id="inschrijven" class="container  anchor separator">
     <h1>Inschrijven</h1>
 
     <h2>Tickets</h2>
@@ -380,8 +461,8 @@
     <p>Logo Creatief Schrijven</p>
     <p>Waalsekaai 15, 2000 Antwerpen<br/>
     03 229 09 90<br/>
-    <a href="mailto:info@creatiefschrijven.be">info@creatiefschrijven.be</a><br/>
-    <a href="www.creatiefschrijven.be">www.creatiefschrijven.be</a>
+    <a href="mailto:info@creatiefschrijven.be" target="_blank">info@creatiefschrijven.be</a><br/>
+    <a href="http://creatiefschrijven.be" target="_blank">www.creatiefschrijven.be</a>
 
   </div>
 
