@@ -16,6 +16,20 @@ h1, h2 {
   margin-bottom: 30px;
 }
 
+h3 {
+  padding: 15px;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#locatie img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .navbar-default {
   height: 100px;
 }
@@ -63,8 +77,8 @@ h1, h2 {
   color: #fff;
 }
 
-.spiraal {
-  background-image: url("spiraal.png");
+#programma h2 {
+  color: rgb(237,28,37);
 }
 
 .panel {
@@ -85,7 +99,7 @@ h1, h2 {
 
 .panel img {
   width: 90%;
-  height: 200px;
+  /*height: 200px;*/
 }
 
 

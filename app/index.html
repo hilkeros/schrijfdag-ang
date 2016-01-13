@@ -34,7 +34,7 @@
       <div class="collapse navbar-collapse" uib-collapse="isCollapsed">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#programma">Programma</a></li>
-          <li><a href="#praktisch">Praktisch</a></li>
+          <li><a href="#locatie">Locatie</a></li>
           <li><a href="#inschrijven">Inschrijven</a></li>
         </ul>
 
@@ -54,7 +54,7 @@
     <h1>Programma</h1>
     <p><a href="#timetable">Klik hier voor het dagschema.</a></p>
 
-    <div class="container">
+    <div class="container" id="workshops">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
           <h2>Workshops</h2>
@@ -88,35 +88,34 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row" ng-controller="NMWorkshopsCtrl">
-      <div class="filler" ng-class="fillerClass">
-      </div>
-      <div class="workshop-container" ng-class="workshopContainerClass">
+      <div class="row" ng-controller="NMWorkshopsCtrl">
+        <div class="filler" ng-class="fillerClass">
+        </div>
+        <div class="workshop-container" ng-class="workshopContainerClass">
 
-        <h3>14-16.30u: namiddag</h3>
+          <h3>14-16.30u: namiddag</h3>
 
-        <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
-          <div class="panel">
-            <div class="title">
-              <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
-            </div>
-            <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
-            <div ng-show="selectedWorkshop === workshop">
-              <div class="description" ng-bind-html="workshop.description">
+          <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
               </div>
-              <div class="bio" ng-bind-html="workshop.bio"></div>
-              <br>
-              <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-    <div class="container">
+    <div class="container" id="lezingen">
 
       <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -170,94 +169,161 @@
           </div>
         </div>
       </div>
-      <div class="filler" ng-class="fillerClass">
-      </div>
     </div>
 
-    <div class="container separator">
+    <div class="container" id="infosessies">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
           <h2>Infosessies</h2>
           <p>Kort, krachtig en to the point wordt je 1 uur ondergedompeld in een bepaald thema. Een infosessie kun je uitstekend combineren met een literair spreekuur (link naar lit spreekuur), je pitch bij een uitgever (link naar pitch bij uitgever) of even rustig pennen in de Slow Writing Room (link naar SWR).</p>
+        </div>
+      </div>
+
+      <div class="row" ng-controller="VMInfosessiesCtrl">
+        <div class="filler" ng-class="fillerClass">
+        </div>
+        <div class="workshop-container" ng-class="workshopContainerClass">
 
           <h3>11-13u: voormiddag</h3>
 
-          <p><strong>11-12u: Fantasy: verbeelding aan de macht</strong></p>
+          <div ng-repeat="workshop in workshops" id="infosessie-vm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
+              </div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-          <p>Fantasy is een van de meest bloeiende literaire genres van het moment. Het succes van saga’s als <em>Songs of ice and fire</em> en de afgeleide TV-serie <em>Game of Thrones</em>, draagt daar zeker toe bij. Fantasy komt tegemoet aan onze reis- en exploratiedrang én laat de verbeelding aan de macht. Maar hoe schrijf je een fantasy-roman? Hoe bouw je de personages op? Wat zijn de valkuilen? En hoe hou je de plot geloofwaardig? xxx en xxx geven uitleg. of Enkele ervaren fantasy-auteurs geven uitleg. Erik Heiser, de eerste Vlaming die die befaamde Paul Harlandprijs won, en  Martijn Lindeboom.</p>
-
-          <p><strong>12-13u: uitgeven in eigen beheer </strong></p>
-          <p>Heb je een roman, dichtbundel, een familieverhaal of non-fictie werk geschreven en wil je dat graag in boekvorm publiceren, dan zijn er vandaag de dag talloze mogelijkheden om dat zelf te doen.
-          Print-on-demand diensten bestaan al enkele jaren en heel wat schrijvers maken er dankbaar gebruik van om hun eigen boek op de markt te brengen. Wat er allemaal precies bij uitgeven in eigen beheer komt kijken en wat de voor- en nadelen zijn, ontdek je tijdens de infosessie.</p>
-
+      <div class="row" ng-controller="NMInfosessiesCtrl">
+        <div class="filler" ng-class="fillerClass">
+        </div>
+        <div class="workshop-container" ng-class="workshopContainerClass">
 
           <h3>14-16.30u: namiddag</h3>
 
-          <p><strong>14-15u: To blog or not to blog: Aya Sabi, Bart Vermeer, ?</strong></p>
-
-          <p><strong>14-15u: van kleine vergoeding tot auteursrecht</strong></p>
-
-          <p>Als beginnende schrijver is wat realiteitszin mooi meegenomen: de euro's zullen niet meteen binnenstromen. En als je al wat geld verdient, moet je ook nog rekening houden met BTW, personenbelasting, enz. Het Sociaal Bureau voor Kunstenaars, t-heater, helpt je op weg. Je krijgt een overzicht van de manieren waarop je je kunt laten uitbetalen voor je schrijfwerk en komt meer te weten over auteurs- en naburige rechten. Een doordachte blik op je portemonnee, dat is waar het in deze infosessie over gaat.
-          Aansluitend kun je bij de consulent van t-heater terecht voor individueel advies. Vul je persoonlijke vraag in op je inschrijvingsformulier.</p>
-
-          <p><strong>15-16u: Stijn Meuris: tekst en uitleg (nog te pimpen)</strong>
-          <p>Hij schreef met Noordkaap, Monza en MEURIS een indrukwekkend oeuvre aan Nederlandstalige nummers bijeen. Songs als ‘Satelliet S.U.Z.Y.’, ‘Ik hou van u’ en ‘Van God los’ staan in het collectieve geheugen gegrift, maar wat inspireerde de zanger om ze te schrijven? Speciaal voor de Schrijfdag biedt hij een blik in zijn schrijfpraktijk.</p>
-
-
+          <div ng-repeat="workshop in workshops" id="infosessie-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
+              </div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
+    <div class="container" id="feedback">
       <div class="row">
         <div class="col-xs-12 col-md-6">
-
-          <h2>PITCH BIJ EEN UITGEVER (11-16.30u)</h2>
-          <p>Heb je een volledig manuscript af en ben je helemaal klaar om te debuteren? Schrijf je dan in voor jouw pitch bij een uitgever. Je krijgt 15 minuten om jezelf en je werk te verkopen. Waar anders krijg je de unieke kans om aan te schuiven bij o.a. Uitgeverij Vrijdag, Lannoo, Het Balanseer, Clavis of Zeghetmettekst. Houd je synopsis bij de hand als je inschrijft.</p>
-
-          <p>Een pitch bij een uitgever kun je combineren met een infosessie of literair spreekuur (link naar lit s.), maar niet met een workshop of lezing. Je kunt je ook terugtrekken in de Slow Writing Room (link naar SWR) of je tekst pimpen bij Ward Zwart (link naar DIY met WZ).</p>
-
-          <p>(linken onder uitgeverijen)</p>
-
-          <p>Foto</p>
+          <h2>Feedback</h2>
+          <p>Zou er hier dan ook niet beter een inleidend tekstje komen?</p>
         </div>
       </div>
+
+      <div class="row" ng-controller="FeedbackCtrl">
+        <div class="workshop-container" ng-class="workshopContainerClass">
+
+          <h3>11-16.30u</h3>
+
+          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
+              </div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="enooknog">
       <div class="row">
-        <div class="col-xs-12 col-md-offset-6 col-md-6">
-
-          <h2>LITERAIR SPREEKUUR - ook non-fictie! (11-16.30u)</h2>
-          <p>Het Literair Spreekuur groeide gedurende de jaren uit tot één van de meest gewaardeerde onderdelen van de Schrijfdag. Wil je feedback op je poëzie, proza, theatertekst of non-fictiewerk? Stuur je tekst vooraf in en krijg op de Schrijfdag persoonlijke feedback van een auteur of schrijfdocent.</p>
-
-          <p>Een literair spreekuur kun je combineren met een infosessie of pitch bij een uitgever, maar niet met een workshop of lezing. Je kunt je ook terugtrekken in de Slow Writing Room of je tekst pimpen bij Ward Zwart.</p>
-
-          <p>Foto</p>
+        <div class="col-xs-12 col-md-6 col-md-offset-6">
+          <h2>En ook nog</h2>
         </div>
       </div>
+
+      <div class="row" ng-controller="EnOokNogCtrl">
+        <div class="filler" ng-class="fillerClass">
+        </div>
+        <div class="workshop-container" ng-class="workshopContainerClass">
+
+          <div ng-repeat="workshop in workshops" id="enooknog-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
+              </div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="ontdek">
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <h2>EN OOK NOG</h2>
-
-          <h4>SLOW WRITING ROOM</h4>
-          <p>Ben je geïnspireerd door een lezing? Heb je net een geniale schrijftip gehoord of wil je verder schrijven aan een tekst die je begon tijdens een workshop? Kom dan even op schrijfadem in onze Slow Writing Room. Een schrijfcoach helpt je, indien nodig, op weg.</p>
-
-          <h4>DIY MET WARD ZWART</h4>
-          <p>De wereld van Ward Zwart zit vol suggesties voor mogelijke verhalen. Hij maakt tekeningen en geeft zelf comic-zines uit. Op de Schrijfdag gaat hij samen met jouw aan de slag met jouw tekstfragment. Je gaat naar huis met een unieke creatie waar jouw woorden centraal staan.</p>
-          illustratie
-
-
-          <h4>JEE KAST (+ foto)</h4>
-          <p>Jee Kast creëert. Alles wat te maken heeft met woord; van slam poetry en spellingfouten tot slechte woordgrappen en foute openingszinnen... en met regelmaat een aangrijpende tekst of een heus gedicht. Op de Schrijfdag verrast hij met poëtische interventies en een lyrische slotbeschouwing.</p>
-
-          <h4>OM DE 150 SECONDEN</h4>
-          <p>De ene doet het met 45-toerenplaatjes uit de oude doos, de andere met gebruiksvoorwerpen, een derde vanuit een piepklein theatertje. Ze doen het samen, maar toch heel apart. Op een rijtje wachten ze je op tijdens de middagpauze en kun je bij de Pazzi di Parole 5 poëtische speeddates beleven. Tête à tête met jou halen ze alles uit de kast om je te verleiden met hun verzen.</p>
-          <p>foto</p>
-
-          <h4>BOEKENSTAND + SIGNEERSESSIES</h4>
-          <p>Boeken van auteurs die aanwezig zijn op de Schrijfdag, kun je kopen aan de boekenstad van boekhandel Malpertuis (www.boekhandelmalpertuis.be) uit Genk.</p>
-
-          <h4>STUDENTEN BASISJAAR LITERAIR SCHRIJVEN STELLEN TENTOON</h4>
-          <p>De deelnemers van de eenjarige opleiding Basisjaar Literair Schrijven (http://creatiefschrijven.be/cursus/basisjaar-literair-schrijven/ ) tonen de resultaten van enkele crossover workshops tussen schrijven en een andere kunsttak. Dichter en beeldend kunstenaar Lies Van Gasse cureert de combinaties van beeld en tekst. Stemkunstenaar Maja Jantar begeleidt de performances.</p>
+          <h2>Ontdek</h2>
         </div>
       </div>
 
+      <div class="row" ng-controller="OntdekCtrl">
+        <div class="workshop-container" ng-class="workshopContainerClass">
+
+          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+            <div class="panel">
+              <div class="title">
+                <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
+              </div>
+              <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
+              <div ng-show="selectedWorkshop === workshop">
+                <div class="description" ng-bind-html="workshop.description">
+                </div>
+                <div class="bio" ng-bind-html="workshop.bio"></div>
+                <br>
+                <div class="hoedje"><a href ng-click="toggleDetail(workshop)" >^</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container separator" id="timetable">
+      <h2>Dagschema</h2>
       <div class="timetable" id="timetable"></div>
         <script>
           var timetable = new Timetable();
@@ -281,37 +347,14 @@
     </div>
 
 
-  <div id="praktisch" class="container separator">
-    <h1>Praktisch</h1>
-    <h2>Locatie: C-Mine</h2>
+  <div id="locatie" class="container separator">
+    <h1>Locatie: C-Mine</h1>
     <p>28 jaar geleden sloot de laatste steenkoolmijn in Winterslag bij Genk. Ondertussen is de voormalige mijnsite omgebouwd tot een <strong>hippe hotspot</strong> waar kunst, design en creativiteit centraal staan. Een site die creativiteit produceert en die je inspireert. Laat je zeker ook even verdwalen in het <a href="http://www.c-mine.be/Bezoek/Toerisme/Labyrint">Labyrint</a>, 1 km stalen gangen opgesteld voor de ingang van het cultuurcentrum. Een creatie van kunst-en architectenduo Gijs Van Vaerenbergh.</p>
 
-    <h3>Hoe bereik je <a href="http://c-mine.be">C-mine cultuurcentrum</a>?</h3>
+    <h4>Hoe bereik je <a href="http://c-mine.be/contact_info/routebeschrijving">Cultuurcentrum C-Mine</a>?</h4>
     <p>C-mine cultuurcentrum, Evence Coppeelaan 91, 3600 Genk</p>
 
-    <p>foto</p>
-
-    <h4>Openbaar vervoer</h4>
-    <p>Vanaf station Genk:</p>
-    <ul>
-      <li>Neem de G8 lijn richting Opglabbeek Nieuwe Kempen</li>
-      <li>Stap af aan halte C-Mine</li>
-    </ul>
-    <p>of</p>
-    <ul>
-      <li>Neem bus 31 richting Houthalen</li>
-      <li>Stap af aan halte Esserslaan</li>
-    </ul>
-
-    <h4>Met de fiets</h4>
-    <p>Aan de overdekte autoparking aan de St. Barbarastraat vind je ook een fietsparking.<br/>
-    Bij C-mine kan je ook fietsen huren en vind je een aparte parking voor huurfietsen dichtbij bushalte C-Mine.</p>
-
-    <h4>Met de auto</h4>
-    <p>C-mine is gelegen vlakbij de E314. Je neemt afrit 31 "Genk Centrum" en draait links richting Genk centrum. Aan de eerste lichten volg je de pijl naar C-mine en draai je bijgevolg rechtsaf.<br/>
-    Vlak na het eerste rondpunt zie je C-mine aan jouw linkerkant.<br/>
-    Je vindt een parking aan de Houtparklaan, een overdekte parking aan de St.-Barbarastraat, een parking aan de faciliteiten van C-mine en nog eentje aan de Evence Coppeelaan.<br/>
-    De grote en kleine zaal, en de liften, zijn toegankelijk voor rolstoelgebruikers.</p>
+    <p><img src="img/Locatie-C-mine.jpg"></p>
 
   </div>
 
