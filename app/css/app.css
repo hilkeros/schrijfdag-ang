@@ -115,11 +115,11 @@ h4 {
   color: rgb(237,28,37);
 }
 
-#locatie, #inschrijven {
+#locatie, #inschrijven, #win {
   min-height: 100vh;
 }
 
-#locatie img {
+#locatie, #win img {
   margin-top: 30px;
   margin-bottom: 30px;
   max-width: 90%;
