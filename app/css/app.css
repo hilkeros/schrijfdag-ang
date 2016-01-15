@@ -159,6 +159,11 @@ h4 {
   border-bottom: 1px solid rgb(237,28,37);
 }
 
+.panel .teacher {
+  color: #777A8B;
+  text-transform: none;
+}
+
 .description, .bio {
   /*display: none;*/
   margin-top: 20px;

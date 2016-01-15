@@ -77,8 +77,9 @@
 
           <div ng-repeat="workshop in workshops" id="workshop-vm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -102,8 +103,9 @@
 
           <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -135,8 +137,9 @@
 
           <div ng-repeat="workshop in workshops" id="lezing-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -158,8 +161,9 @@
 
           <div ng-repeat="workshop in workshops" id="lezing-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -192,8 +196,9 @@
 
           <div ng-repeat="workshop in workshops" id="infosessie-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -217,8 +222,9 @@
 
           <div ng-repeat="workshop in workshops" id="infosessie-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -249,8 +255,9 @@
 
           <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -280,8 +287,9 @@
 
           <div ng-repeat="workshop in workshops" id="enooknog-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
@@ -309,8 +317,9 @@
 
           <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title">
-                <div ng-click="toggleDetail(workshop)" ng-bind-html="workshop.title"></div>
+              <div class="title" ng-click="toggleDetail(workshop)">
+                <div ng-bind-html="workshop.title"></div>
+                <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
               <div ng-show="selectedWorkshop === workshop">
