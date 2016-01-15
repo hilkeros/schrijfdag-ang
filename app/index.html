@@ -54,8 +54,9 @@
   <div id ="programma" class="container anchor separator">
     <h1>Programma</h1>
     <p><a href="#timetable">Klik hier voor het dagschema.</a></p>
+    <p><a href="#workshops">WORKSHOPS</a> - <a href="#lezingen">LEZINGEN</a> - <a href="#infosessies">INFOSESSIES</a> - <a href="#feedback">FEEDBACK</a> - <a href="#enooknog">EN OOK NOG</a> - <a href="#ontdek">ONTDEK</a></p>
 
-    <div class="container" id="workshops">
+    <div class="container anchor" id="workshops">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
           <h2>Workshops</h2>
@@ -72,7 +73,7 @@
 
           <h3>11-13u: voormiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="workshop-vm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="workshop-vm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -116,7 +117,7 @@
       </div>
     </div>
 
-    <div class="container" id="lezingen">
+    <div class="container anchor" id="lezingen">
 
       <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -172,7 +173,7 @@
       </div>
     </div>
 
-    <div class="container" id="infosessies">
+    <div class="container anchor" id="infosessies">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
           <h2>Infosessies</h2>
@@ -231,7 +232,7 @@
       </div>
     </div>
 
-    <div class="container" id="feedback">
+    <div class="container anchor" id="feedback">
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <h2>Feedback</h2>
@@ -263,7 +264,7 @@
       </div>
     </div>
 
-    <div class="container" id="enooknog">
+    <div class="container anchor" id="enooknog">
       <div class="row">
         <div class="col-xs-12 col-md-6 col-md-offset-6">
           <h2>En ook nog</h2>
@@ -294,7 +295,7 @@
       </div>
     </div>
 
-    <div class="container" id="ontdek">
+    <div class="container anchor" id="ontdek">
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <h2>Ontdek</h2>
@@ -332,12 +333,12 @@
           <td rowspan="2">
             <strong>Workshops (11-13u)</strong>
             <ul>
-              <li>Chicklit - Nele Reymen (i.s.m. WISPER)</li>
-              <li>The Write Stuff - Frederik Willem Daem</li>
-              <li>Vreemd in het schrijven - Mustafa Kör</li>
-              <li>Columns - Margot Vanderstraeten</li>
-              <li>Schrijf een stripverhaal - Kristof Spaey en Bart Vaessens</li>
-              <li>Communiceer creatief in zakelijke teksten - Erik Vanhee</li>
+              <li>Chicklit - <a href="#workshop-vm-0">Nele Reymen</a> (i.s.m. WISPER)</li>
+              <li>The Write Stuff - <a href="#workshop-vm-1">Frederik Willem Daem</a> </li>
+              <li>Vreemd in het schrijven - <a href="#workshop-vm-2">Mustafa Kör</a></li>
+              <li>Columns - <a href="#workshop-vm-1">Margot Vanderstraeten</a></li>
+              <li>Schrijf een stripverhaal - <a href="#workshop-vm-1">Kristof Spaey en Bart Vaessens</a></li>
+              <li>Communiceer creatief in zakelijke teksten - <a href="#workshop-vm-1">Erik Vanhee<</a>/li>
               <li>Schrijfwandeling: 'Eeuwig water in Termien'</li>
               <li>Schrijfwandeling: 'Oude aarde: het Genkse mijnverleden vroeger en nu'</li>
             </ul>
@@ -345,8 +346,8 @@
           <td rowspan="2">
             <strong>Lezingen (11-13u)</strong>
             <ul>
-              <li>Schrijven voor kinderen en jongeren - Kaat Vrancken</li>
-              <li>Verkoop jezelf - Véronique Hoex</li>
+              <li>Schrijven voor kinderen en jongeren - <a href="#lezing-vm-0">Kaat Vrancken</a></li>
+              <li><a href="#lezing-vm-1">Verkoop jezelf - Véronique Hoex</li>
             </ul>
           </td>
           <td>
@@ -385,10 +386,10 @@
           <td rowspan="2">
             <strong>Workshops (14-16.30u)</strong>
             <ul>
-              <li>13.30-16.30u! Ondergronds schrijven (voor gevorderden) - Leen van den Berg</li>
-              <li>Schrijven met smaak - Kathy Mathys</li>
-              <li>Flitsverhalen - David Troch en Iris Verhoeven (i.s.m. WISPER)</li>
-              <li>Music of Writing (voor gevorderden) - Ignacio Ferrando</li>
+              <li>13.30-16.30u! Ondergronds schrijven (voor gevorderden) - <a href="#workshop-nm-0">Leen van den Berg</a></li>
+              <li>Schrijven met smaak - <a href="#workshop-nm-1">Kathy Mathys</a></li>
+              <li>Flitsverhalen - <a href="#workshop-nm-2">David Troch en Iris Verhoeven (i.s.m. WISPER)</li>
+              <li>Music of Writing (voor gevorderden) - <a href="#workshop-nm-3">Ignacio Ferrando</li>
               <li>Schrijfwandeling: 'Jong talent zet Genk in vuur en vlam'</li>
               <li>Schrijfwandeling: 'De Genkse Terril: woeste hoogte'</li>
             </ul>
@@ -396,10 +397,10 @@
           <td rowspan="2">
             <strong>Lezingen (14-16.30u)</strong>
             <ul>
-              <li>De kunst van de autobiografie - Özcan Akyol</li>
-              <li>Storytelling in Games - Eric Taelman en Joost Vandecasteele</li>
-              <li>Saskia De Coster</li>
-              <li>Uit je mening - Guillaume Van der Stighelen</li>
+              <li>De kunst van de autobiografie - <a href="#lezing-nm-0">Özcan Akyol</a></li>
+              <li>Storytelling in Games - <a href="#lezing-nm-1">Eric Taelman en Joost Vandecasteele</a></li>
+              <li><a href="#lezing-nm-2">Saskia De Coster</a></li>
+              <li>Uit je mening - <a href="#lezing-nm-2">Guillaume Van der Stighelen</a></li>
             </ul>
           </td>
           <td>
