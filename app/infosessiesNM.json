@@ -1,16 +1,19 @@
 [
   {
-    "title" : "To blog or not to blog (14-15u)",
-    "image" : "img/docenten/AyaSabi.jpg"
+    "title" : "To blog or not to blog",
+    "teacher" : "Aya Sabi en Bart Vermeer",
+    "image" : "img/docenten/Bloggen.jpg",
+    "description" : "<strong>14 tot 15u</strong><br/> Blogs zijn meer geworden dan een online dagboek. Van foodblogs over DIY-blogs tot mamablogs: in alle soorten schieten ze als paddenstoelen uit de grond. <strong>Aya Sabi</strong>, experimenteert met literatuur en opdrachten en blogt o.a. voor <a href='http://deredactie.be/cm/vrtnieuws/opinieblog/blog/ayasabi'>deredactie</a>. Auteur <strong>Bart Vermeer</strong> geeft je op zijn blog <a href='http://bartsidiosyncrasies.blogspot.be'>Idiosyncrasie</a> een inkijk in zijn schrijfproces. Waarom en hoe startten zij met bloggen? Hoe bouwen ze een post op en wat delen ze wel en wat niet? Een vakspecialist geeft ook praktische tips om je blog online beter zichtbaar te maken."
   },
   {
-    "title" : "Van kleine vergoeding tot auteursrecht (14-15u)",
-    "image" : "img/docenten/AyaSabi.jpg",
-    "description" : "Als beginnende schrijver is wat realiteitszin mooi meegenomen: de euro's zullen niet meteen binnenstromen. En als je al wat geld verdient, moet je ook nog rekening houden met BTW, personenbelasting, enz. Het Sociaal Bureau voor Kunstenaars, t-heater, helpt je op weg. Je krijgt een overzicht van de manieren waarop je je kunt laten uitbetalen voor je schrijfwerk en komt meer te weten over auteurs- en naburige rechten. Een doordachte blik op je portemonnee, dat is waar het in deze infosessie over gaat. Aansluitend kun je bij de consulent van t-heater terecht voor individueel advies. Vul je persoonlijke vraag in op je inschrijvingsformulier."
+    "title" : "Van kleine vergoeding tot auteursrecht",
+    "image" : "img/docenten/T-heater.jpg",
+    "description" : "<strong>14 tot 15u</strong><br/>Als beginnende schrijver is wat realiteitszin mooi meegenomen: de euro's zullen niet meteen binnenstromen. En als je al wat geld verdient, moet je ook nog rekening houden met BTW, personenbelasting, enz. Het Sociaal Bureau voor Kunstenaars, t-heater, helpt je op weg. Je krijgt een overzicht van de manieren waarop je je kunt laten uitbetalen voor je schrijfwerk en komt meer te weten over auteurs- en naburige rechten. Een doordachte blik op je portemonnee, dat is waar het in deze infosessie over gaat. Aansluitend kun je bij de consulent van t-heater terecht voor individueel advies. Vul je persoonlijke vraag in op je inschrijvingsformulier."
   },
   {
-    "title" : "Stijn Meuris: tekst en uitleg (15-16u)",
-    "image" : "img/docenten/AyaSabi.jpg",
-    "description" : "Hij schreef met Noordkaap, Monza en MEURIS een indrukwekkend oeuvre aan Nederlandstalige nummers bijeen. Songs als ‘Satelliet S.U.Z.Y.’, ‘Ik hou van u’ en ‘Van God los’ staan in het collectieve geheugen gegrift, maar wat inspireerde de zanger om ze te schrijven? Speciaal voor de Schrijfdag biedt hij een blik in zijn schrijfpraktijk."
+    "title" : "Tekst en uitleg",
+    "teacher" : "Stijn Meuris",
+    "image" : "img/docenten/Stijn.Meuris.jpg",
+    "description" : "<strong>15 tot 16u</strong><br/> Stijn Meuris is zanger, frontman, regisseur, publicist en man-met-een-mening. Met Noordkaap, Monza en MEURIS schreef hij een indrukwekkend oeuvre aan Nederlandstalige nummers bijeen. Songs als 'Satelliet S.U.Z.Y.', 'Ik hou van u' en 'Van God los' staan in het collectieve geheugen gegrift, maar wat inspireerde de zanger om ze te schrijven? Katrijn Van Bouwel gaat met hem in gesprek; over schrijven, schrappen en liedteksten creëren. Hij geeft ook graag een antwoord op jouw schrijfvragen."
   }
 ]
