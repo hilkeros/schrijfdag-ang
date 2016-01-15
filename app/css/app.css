@@ -165,14 +165,14 @@ h4 {
 }
 
 .description, .bio {
-  /*display: none;*/
   margin-top: 20px;
   text-align: left;
 }
 
-.bio {
+.bio, .copyright {
   color: #777A8B;
   font-size: 0.8em;
+  text-align: left;
 }
 
 .hoedje {
