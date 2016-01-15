@@ -98,7 +98,7 @@
 
           <h3>14-16.30u: namiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -131,7 +131,7 @@
 
           <h3>11-13u: voormiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="lezing-vm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="lezing-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -154,7 +154,7 @@
 
           <h3>14-16.30u: namiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="lezing-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="lezing-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -188,7 +188,7 @@
 
           <h3>11-13u: voormiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="infosessie-vm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="infosessie-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -213,7 +213,7 @@
 
           <h3>14-16.30u: namiddag</h3>
 
-          <div ng-repeat="workshop in workshops" id="infosessie-nm-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="infosessie-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -245,7 +245,7 @@
 
           <h3>11-16.30u</h3>
 
-          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -276,7 +276,7 @@
         </div>
         <div class="workshop-container" ng-class="workshopContainerClass">
 
-          <div ng-repeat="workshop in workshops" id="enooknog-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="enooknog-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
@@ -305,7 +305,7 @@
       <div class="row" ng-controller="OntdekCtrl">
         <div class="workshop-container" ng-class="workshopContainerClass">
 
-          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title">
                 <a href ng-click="toggleDetail(workshop)">{{workshop.title}}</a>
