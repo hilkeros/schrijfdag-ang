@@ -84,6 +84,33 @@ h4 {
   color: #fff;
 }
 
+.campagnebeeld img {
+  display: block;
+}
+
+#img-tagline {
+  max-width: 250px;
+  max-width: 40%;
+  margin-top: 75px;
+}
+
+#img-schrijf {
+  max-width: 40%;
+  margin-top: 40px;
+}
+
+#img-dag {
+  max-width: 6%;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+#img-datum {
+  max-width: 20%;
+  float: right;
+  margin-top: 50px;
+}
+
 #programma h2 {
   color: rgb(237,28,37);
 }
