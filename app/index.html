@@ -78,7 +78,7 @@
           <div ng-repeat="workshop in workshops" id="workshop-vm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -105,7 +105,7 @@
           <div ng-repeat="workshop in workshops" id="workshop-nm-{{$index}}" class="anchor col-xs-12" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -140,7 +140,7 @@
           <div ng-repeat="workshop in workshops" id="lezing-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -165,7 +165,7 @@
           <div ng-repeat="workshop in workshops" id="lezing-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -200,8 +200,8 @@
 
           <div ng-repeat="workshop in workshops" id="infosessie-vm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
-              <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+             <div class="title" ng-click="toggleDetail(workshop)">
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -228,7 +228,7 @@
           <div ng-repeat="workshop in workshops" id="infosessie-nm-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -262,7 +262,7 @@
           <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -295,7 +295,7 @@
           <div ng-repeat="workshop in workshops" id="enooknog-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -326,7 +326,7 @@
           <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
-                <div ng-bind-html="workshop.title"></div>
+                <a href ng-bind-html="workshop.title"></a>
                 <div class="teacher">{{workshop.teacher}}</div>
               </div>
               <a href ng-click="toggleDetail(workshop)"><img ng-src="{{workshop.image}}"></a>
@@ -548,6 +548,16 @@
     </div>
   </footer>
 
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-56517264-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
