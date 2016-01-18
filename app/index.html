@@ -323,7 +323,7 @@
       <div class="row" ng-controller="OntdekCtrl">
         <div class="workshop-container" ng-class="workshopContainerClass">
 
-          <div ng-repeat="workshop in workshops" id="feedback-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="ontdek-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
                 <a href ng-bind-html="workshop.title"></a>
@@ -367,24 +367,24 @@
             <strong>Lezingen (11-13u)</strong>
             <ul>
               <li>Schrijven voor kinderen en jongeren - <a href="#lezing-vm-0">Kaat Vrancken</a></li>
-              <li><a href="#lezing-vm-1">Verkoop jezelf - Véronique Hoex</li>
+              <li>Verkoop jezelf - <a href="#lezing-vm-1">Véronique Hoex</li>
             </ul>
           </td>
           <td>
             <strong>Infosessie (11-12u)</strong>
             <ul>
-              <li>Fantasy: verbeelding aan de macht</li>
+              <li>Fantasy: verbeelding aan de macht - <a href="#infosessie-vm-0">An Janssens, Guido Eekhout & Erik Heiser</a></li>
             </ul>
           </td>
            <td rowspan="2">
             <strong>Doorlopend (11-16.30u)</strong>
             <ul>
-              <li>Literair spreekuur (feedback op je tekst)</li>
-              <li>Pitch bij een uitgever</li>
-              <li>Slow Writing Room</li>
-              <li>DIY met Ward Zwart</li>
-              <li>Boekenstand Malpertuis + signeersessies</li>
-              <li>Basisjaar Literair Schrijven stelt voor</li>
+              <li><a href="#feedback-1">Literair spreekuur</a> (feedback op je tekst)</li>
+              <li><a href="#feedback-0">Pitch bij een uitgever</a> (14-16.30u)</li>
+              <li><a href="#enooknog-0">Slow Writing Room</a></li>
+              <li><a href="#enooknog-1">DIY met Ward Zwart</a></li>
+              <li><a href="#ontdek-2">Boekenstand Malpertuis + signeersessies</a></li>
+              <li><a href="#ontdek-3">Basisjaar Literair Schrijven stelt voor</a></li>
             </ul>
           </td>
         </tr>
@@ -392,14 +392,14 @@
           <td>
             <strong>Infosessie (12-13u)</strong>
             <ul>
-              <li>Uitgeven in eigen beheer</li>
+              <li><a href="#infosessie-1">Uitgeven in eigen beheer</a></li>
             </ul>
           </td>
         </tr>
         <tr>
           <td colspan="4">
             <center><strong>Lunch (10.30-10.45u)</strong><br/>
-            Poëtische speeddates Pazzi di Parole</center>
+            Poëtische <a href="#ontdek-1">speeddates</a> Pazzi di Parole</center>
           </td>
         </tr>
         <tr>
@@ -419,15 +419,15 @@
             <ul>
               <li>De kunst van de autobiografie - <a href="#lezing-nm-0">Özcan Akyol</a></li>
               <li>Storytelling in Games - <a href="#lezing-nm-1">Eric Taelman en Joost Vandecasteele</a></li>
-              <li><a href="#lezing-nm-2">Saskia De Coster</a></li>
-              <li>Uit je mening - <a href="#lezing-nm-2">Guillaume Van der Stighelen</a></li>
+              <li>734 Dromen - <a href="#lezing-nm-2">Saskia De Coster</a></li>
+              <li>Uit je mening - <a href="#lezing-nm-3">Guillaume Van der Stighelen</a></li>
             </ul>
           </td>
           <td>
             <strong>Infosessies (14-15u)</strong>
             <ul>
-              <li>To blog or not to blog? Met o.a. Aya Sabi en Bart Vermeer</li>
-              <li>Van kleine vergoeding tot auteursrecht - t-heater</li>
+              <li>To blog or not to blog? Met o.a. <a href="#infosessie-nm-0">Aya Sabi en Bart Vermeer</a></li>
+              <li><a href="#infosessie-nm-1">Van kleine vergoeding tot auteursrecht - t-heater</a></li>
             </ul>
           </td>
           <td rowspan="2"></td>
@@ -436,13 +436,13 @@
           <td>
             <strong>Interview (15-16u)</strong>
             <ul>
-              <li>Stijn Meuris: tekst en uitleg</li>
+              <li>Tekst en uitleg - <a href="#infosessie-nm-2">Stijn Meuris</a></li>
             </ul>
           </td>
         </tr>
         <tr>
           <td colspan="4">
-            <center><strong>Slotmoment met o.a. Jee Kast</strong><br/>
+            <center><strong>Slotmoment met o.a. <a href="#ontdek-0">Jee Kast</a></strong><br/>
             + receptie (16.45-18u)</center>
           </td>
         </tr>
