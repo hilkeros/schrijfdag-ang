@@ -72,7 +72,7 @@ h4 {
 
 .navbar-collapse.in.collapse {
   background-color: #000;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 .separator {
