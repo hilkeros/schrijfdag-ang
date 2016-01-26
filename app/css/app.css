@@ -86,6 +86,7 @@ h4 {
 
 .campagnebeeld img {
   display: block;
+  max-width: 100%;
 }
 
 #img-tagline {
