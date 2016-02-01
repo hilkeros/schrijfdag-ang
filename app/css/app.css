@@ -226,6 +226,51 @@ footer a:hover {
   transform: scale(1.1);
 }
 
+.btn_red {
+    /*border-color: #75e3bb;*/
+    background-color: rgb(237,28,37);
+    color: #fff;
+    /*-moz-box-shadow: 0 2px 1px 0 #6bcfa9;
+    -webkit-box-shadow: 0 2px 1px 0 #6bcfa9;
+    box-shadow: 0 2px 1px 0 #6bcfa9;*/
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-bottom: 0;
+    -moz-border-radius: 3px!important;
+    -webkit-border-radius: 3px;
+    border-radius: 3px!important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+}
 
+.btn_red:hover {
+  text-decoration: none;
+}
+
+.btn_red a {
+  color: #fff;
+}
+
+.btn_red a:hover {
+  color: #fff;
+}
+
+.btn_red a:visited {
+  color: #fff;
+}
 
 
