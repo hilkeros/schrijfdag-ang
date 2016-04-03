@@ -117,7 +117,7 @@ h4 {
   margin-top: 50px;
 }
 
-#programma h2 {
+#programma h2, #sfeerbeelden h2 {
   color: rgb(237,28,37);
 }
 
@@ -274,3 +274,10 @@ footer a:hover {
 }
 
 
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+.cs-carousel {
+  margin: 50px;
+  background-color: #000;
+}

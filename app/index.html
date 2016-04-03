@@ -19,6 +19,7 @@
   <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
   <script src="js/controllers.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
   <link rel="stylesheet" href="bower_components/timetable.js/dist/styles/timetablejs.css">
   <script src="bower_components/timetable.js/dist/scripts/timetable.min.js"></script>
 </head>
@@ -40,10 +41,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" uib-collapse="isCollapsed">
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="#sfeerbeelden">Sfeerbeelden</a></li>
           <li><a href="#programma">Programma</a></li>
-          <li><a href="#win">Win</a></li>
           <li><a href="#locatie">Locatie</a></li>
-          <li><a href="#inschrijven">Inschrijven</a></li>
+          <li><a href="#inschrijven">Contact</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -57,6 +58,31 @@
     <img id = "img-dag" src="img/SD16-DAG.png">
   </div>
 
+
+  <div id="sfeerbeelden" class="container anchor separator">
+    <h1>Herbeleef de schrijfdag 2016</h1>
+    <div class="row">
+      <h2>Sfeerbeelden</h2>
+      <div ng-controller="CarouselDemoCtrl" class="cs-carousel  ">
+        <div>
+          <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+            <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+              <img ng-src="{{slide.image}}" style="margin:auto;" class="img-responsive">
+            </uib-slide>
+          </uib-carousel>
+        </div>
+      </div>
+      <p><strong>Impressies van auteurs en deelnemers die op de Schrijfdag aanwezig waren:</strong></p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s5uPejZgvd0"></iframe>
+      </div>
+      <h2>(Her)beluister de infosessies</h2>
+      <div class="embed-responsive">
+        <div class="embed-responsive-item">
+          <iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252581961&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+      </div>
+  </div>
 
   <div id ="programma" class="container anchor separator">
     <h1>Programma</h1>
@@ -456,14 +482,14 @@
         </div>
     </div>
   </div>
-  <div id="win" class="container anchor separator">
+  <!-- <div id="win" class="container anchor separator">
     <h1>Schrijf en win een hotelovernachting </h1>
     <p>Schrijven is schrappen. Wij dagen je uit om in 101 woorden een zeer kort verhaal te vertellen.</p>
     <p>Post je tekst voor 15 februari op <a href="http://azertyfactor.be" target="_blank">www.azertyfactor.be</a> bij de schrijfkans <a href="http://azertyfactor.be/kans-detail/172/zkv-in-101-woorden" target="_blank">zkv in 101 woorden</a>. Kunstenaar Ward Zwart maakt bij vier teksten een illustratie en laat ze samenvloeien in een unieke creatie. De schrijver van het beste zkv wint een overnachting voor twee personen inclusief ontbijt in <a href="http://www.m-hotel.be/">M-hotel</a> in Genk op 12 maart.</p>
     <p><a href="http://www.m-hotel.be/">M-hotel</a> is gelegen op één van die verborgen pareltjes in Genk: aan het Molenvijverpark in het centrum van de stad. Het telt 81 unieke kamers. In Bar Bistro Restaurant Molenvijver kan je terecht voor een lunch, diner of terrasje met zicht op de vijver.</p>
     <p>Succes!</p>
     <p><img src="img/wedstrijd.jpg"></p>
-  </div>
+  </div> -->
 
   <div id="locatie" class="container anchor separator">
     <h1>Locatie: C-Mine</h1>
@@ -477,7 +503,7 @@
   </div>
 
   <div id="inschrijven" class="container  anchor">
-    <h1>Inschrijven</h1>
+    <!-- <h1>Inschrijven</h1>
 
     <h2>Tickets</h2>
 
@@ -493,10 +519,10 @@
 
     <p><b>De ticketverkoop is afgesloten. Je kunt aan de deur nog tickets open voor de workshops, lezingen en infosessies die nog niet vol zitten.</b></p>
 
-    <!--<p><a href="http://fd10.formdesk.com/creatiefschrijvenbe/SCHRIJFDAG2016" class="btn_red">inschrijven</a></p>
+    <p><a href="http://fd10.formdesk.com/creatiefschrijvenbe/SCHRIJFDAG2016" class="btn_red">inschrijven</a></p>
 
     <p>De plaatsen voor de workshops zijn beperkt. Vol=Vol. Schrijf je dus tijdig in!</p>
-    <p>Wanneer je inschrijft, verwachten we je betaling binnen de 7 dagen. Zo lang onthoudt ons systeem je keuze. Betaal je niet binnen deze termijn, dan komt je plaats opnieuw vrij.</p>-->
+    <p>Wanneer je inschrijft, verwachten we je betaling binnen de 7 dagen. Zo lang onthoudt ons systeem je keuze. Betaal je niet binnen deze termijn, dan komt je plaats opnieuw vrij.</p>
 
     <h2>Annulering</h2>
 
@@ -505,10 +531,10 @@
       <li>Minder dan 15 werkdagen voor de Schrijfdag: je krijgt 50% van het volledige bedrag terug.</li>
       <li>Minder dan 10 werkdagen voor de Schrijfdag: met een bewijs van ziekte of overmacht krijg je 90% van het bedrag terug.</li>
       <li>Minder dan 5 werkdagen voor de Schrijfdag: we betalen niets terug.</li>
-    </ul>
+    </ul> -->
 
 
-    <h2>Contact</h2>
+    <h1>Contact</h1>
 
     <p>Creatief Schrijven</p>
     <p>Waalsekaai 15, 2000 Antwerpen<br/>
