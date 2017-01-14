@@ -37,6 +37,7 @@ h4 {
 
 .navbar-brand img {
   height: 65px;
+  max-width: 80%;
 }
 
 .navbar-default a {
@@ -82,7 +83,7 @@ h4 {
 }
 
 .campagnebeeld {
-  background: right top url("../img/labyrinth.jpeg");
+  background: right top url("../img/Schrijfdag2017bg.png");
   background-size: cover;
   margin-top: 100px;
   height: 100vh;
@@ -92,6 +93,11 @@ h4 {
 .campagnebeeld img {
   display: block;
   max-width: 100%;
+}
+
+#img-2017 {
+  max-width: 80%;
+  margin: auto;
 }
 
 #img-tagline {

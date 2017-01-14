@@ -7,9 +7,9 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://schrijfdag.be/">
   <meta property="og:image" content="http://schrijfdag.creatiefschrijven.be/img/og-picture.png">
-  <meta property="og:site_name" content="Schrijfdag 2016">
+  <meta property="og:site_name" content="Schrijfdag 2017">
   <meta property="og:description" content="De schrijfdag is de literaire hoogdag voor en door schrijvers. Een initatief van Creatief Schrijven vzw">
-  <title>Schrijfdag 2016</title>
+  <title>Schrijfdag 2017</title>
   <link rel="shortcut icon" href="http://creatiefschrijven.be/wp-content/themes/twentytwelve-child/favicon.ico" />
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link href="http://fonts.googleapis.com/css?family=Cabin:600,700|PT+Sans:400,700" rel="stylesheet" type="text/css">
@@ -41,10 +41,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" uib-collapse="isCollapsed">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#sfeerbeelden">Sfeerbeelden</a></li>
           <li><a href="#programma">Programma</a></li>
+          <li><a href="#tickets">Tickets</a></li>
           <li><a href="#locatie">Locatie</a></li>
           <li><a href="#inschrijven">Contact</a></li>
+          <li><a href="#sfeerbeelden">Vorige editie</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -52,43 +53,17 @@
 
 
   <div class="container-fluid campagnebeeld">
-    <img id = "img-datum" src="img/SD16-datum+locatie.png">
-    <img id="img-tagline" src="img/SD16-tagline.png">
-    <img id ="img-schrijf" src="img/SD16-SCHRIJF.png">
-    <img id = "img-dag" src="img/SD16-DAG.png">
+    <img id= "img-2017" src="img/Schrijfdag2017-zin.png">
   </div>
 
 
-  <div id="sfeerbeelden" class="container anchor separator">
-    <h1>Herbeleef de schrijfdag 2016</h1>
-    <div class="row">
-      <h2>Sfeerbeelden</h2>
-      <p>Bekijk ook het <a href="https://www.facebook.com/media/set/?set=a.10153555132622428.1073741850.334616532427&type=3" target="_blank"> fotoalbum op Facebook</a>.</p>
-      <div ng-controller="CarouselDemoCtrl" class="cs-carousel  ">
-        <div>
-          <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-            <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-              <img ng-src="{{slide.image}}" style="margin:auto;" class="img-responsive">
-            </uib-slide>
-          </uib-carousel>
-        </div>
-      </div>
-      <p><strong>Impressies van auteurs en deelnemers die op de Schrijfdag aanwezig waren:</strong></p>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s5uPejZgvd0"></iframe>
-      </div>
-      <h2>(Her)beluister de infosessies</h2>
-      <div class="embed-responsive">
-        <div class="embed-responsive-item">
-          <iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/212478150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-        </div>
-      </div>
-  </div>
 
   <div id ="programma" class="container anchor separator">
     <h1>Programma</h1>
     <p><a href="#timetable">Klik hier voor het dagschema.</a></p>
     <p><a href="#workshops">WORKSHOPS</a> - <a href="#lezingen">LEZINGEN</a> - <a href="#infosessies">INFOSESSIES</a> - <a href="#feedback">FEEDBACK</a> - <a href="#enooknog">EN OOK NOG</a> - <a href="#ontdek">ONTDEK</a></p>
+
+    <p>We lichten graag al een tipje van de sluier. Het programma is echter nog niet volledig. Houd deze site in de gaten, want we voegen de komende dagen nog een aantal namen toe.</p>
 
     <div class="container anchor" id="workshops">
       <div class="row">
@@ -96,7 +71,7 @@
           <h2>Workshops</h2>
           <p>In een groep met maximaal 20 deelnemers spit je samen met een vakspecialist een bepaald onderwerp dieper uit en klim je vervolgens in je pen om een nieuw fragment te schrijven en mogelijk ook te delen met de groep. <em>A little less conversation, a little more action.</em></p>
 
-          <p>Nieuw dit jaar en een uitstekende manier om de mijnsite of de stad Genk helemaal te beleven, zijn vijf <a href="#">schrijfwandelingen</a>. Met een gids aan je oor, de wijk  of de mijnsite in het oog en de pen in je hand maak je foto’s met woorden en schrijf je spannende verhaalfragmenten over verborgen of bijzondere plekken.</p>
+          <p>Ook dit jaar organiseren wij schrijfwandelingen. Dit is een ideale manier om de bruisende stad Antwerpen op een nieuwe manier te leren kennen. Terwijl een gids je de mooiste verhalen over de stad van Brabo vertelt, je in een verlaten straatje verdwaalt of een indrukwekkend gebouw je inspireert, kun je jouw verhalen neerpennen in verhalen over bijzondere plekken.</p>
         </div>
       </div>
 
@@ -214,7 +189,7 @@
         </div>
       </div>
     </div>
-
+<!--
     <div class="container anchor" id="infosessies">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
@@ -277,7 +252,7 @@
         </div>
       </div>
     </div>
-
+-->
     <div class="container anchor" id="feedback">
       <div class="row">
         <div class="col-xs-12 col-md-6">
@@ -543,6 +518,32 @@
     <a href="mailto:info@creatiefschrijven.be" target="_blank">info@creatiefschrijven.be</a><br/>
     <a href="http://creatiefschrijven.be" target="_blank">www.creatiefschrijven.be</a>
 
+  </div>
+
+  <div id="sfeerbeelden" class="container anchor separator">
+    <h1>Herbeleef de schrijfdag 2016</h1>
+    <div class="row">
+      <h2>Sfeerbeelden</h2>
+      <p>Bekijk ook het <a href="https://www.facebook.com/media/set/?set=a.10153555132622428.1073741850.334616532427&type=3" target="_blank"> fotoalbum op Facebook</a>.</p>
+      <div ng-controller="CarouselDemoCtrl" class="cs-carousel  ">
+        <div>
+          <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+            <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+              <img ng-src="{{slide.image}}" style="margin:auto;" class="img-responsive">
+            </uib-slide>
+          </uib-carousel>
+        </div>
+      </div>
+      <p><strong>Impressies van auteurs en deelnemers die op de Schrijfdag aanwezig waren:</strong></p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/s5uPejZgvd0"></iframe>
+      </div>
+      <h2>(Her)beluister de infosessies</h2>
+      <div class="embed-responsive">
+        <div class="embed-responsive-item">
+          <iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/212478150&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+      </div>
   </div>
 
   <footer>
