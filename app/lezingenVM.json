@@ -1,18 +1,24 @@
 [
     {
-      "title" : "Schrijven voor kinderen en jongeren",
-      "teacher" : "Kaat Vrancken",
-      "image" : "img/docenten/Kaat.Vrancken.jpg",
-      "copyright" : "Betty Bex",
-      "description" : "Heb je de jonge lezer voortdurend in je achterhoofd als je schrijft? Of denk je pas bij een tweede versie aan je doelgroep? En waar zit het verschil met het schrijven voor volwassenen? Kaat Vrancken heeft zichzelf deze vragen gesteld en komt tot verrassende vaststellingen. Via voorbeelden uit haar eigen schrijfproces gaat ze dieper in op de kwetsbaarheid van de doelgroep, de thema's, de personages, de taal…",
-      "bio" : "<strong>Kaat Vrancken</strong> schrijft vooral jeugd- en kinderboeken. Ze geeft al tien jaar het vak Literaire Creatie aan de Genkse Academie voor Kunst."
+      "title" : "Kookkunst: ingrediënten van een roman (gevorderden)",
+      "teacher" : "Gie Bogaert",
+      "image" : "img/docenten/Gie.Bogaert.jpg",
+      "copyright" : "Koen Broos",
+      "description" : "De kunst van het schrijven schuilt in de voorbereiding. Wie een roman wil schrijven, zet best eerst alle ingrediënten klaar. Dat veronderstelt het maken van de juiste keuzes. Tijdens de lezing wordt een werkmethode voorgesteld op grond van de basiselementen van het verhaal (personages, situatie, thema, decor), de intrige (verhaalontwikkeling, perspectief, tijd, begin-slot en scènebouw) en stilistische variaties.",
+      "bio" : "<strong>Gie Bogaert</strong> is romanschrijver en prozadocent aan SchrijversAcademie. In 2016 verscheen bij De Bezige Bij zijn elfde boek: de mozaïekroman <em>Roosevelt</em>."
     },
     {
-      "title" : "Verkoop jezelf<br/><br/> ",
-      "teacher" : "Véronique Hoex",
-      "image" : "img/docenten/Veronique.Hoex.jpg",
-      "description" : "Rijen wachtende bij een signeersessie. Over de hoofden heen gluur ik naar het tafeltje waar de schrijver zit. De schrijver met de opzichtige bril. Wat maakt dat mensen met een sterk imago makkelijker boeken verkopen? Hun herkenbaarheid. Ze zijn anders dan de anderen. Ze hebben een duidelijke visie en ze zijn bewust bezig met hoe ze overkomen. Heb je interesse in een spoedcursus Personal Branding? Kies dan voor deze lezing.",
-      "bio" : "<strong>Véronique Hoex</strong> zorgt ervoor dat iedereen een onuitwisbare indruk nalaat. Zij is de specialiste op het vlak van Personal Impact en Personal Branding."
-    }
-
+      "title" : "Bloggen in stijl",
+      "teacher" : "Barbara de Munnynck",
+      "image" : "img/docenten/Barbara.de.Munnynck.jpg",
+      "description" : "Blogs zijn meer geworden dan een online dagboek. Van foodblogs over DIY-blogs tot mamablogs: in alle soorten schieten ze als paddenstoelen uit de grond. Waarom spreken sommige blogs aan en blijven anderen onzichtbaar? Hoe kies je een onderwerp voor je blog? Hoe bouw je teksten op en ontwikkel je een eigen schrijfstijl? Hoe bouw je een post op en wat delen je wel en wat niet?",
+      "bio" : "<strong>Barbara De Munnynck</strong> werkt als zelfstandig journaliste en tekstschrijver. Ze is een van de initiatiefneemsters van boekenblog 'This Is How We Read'."
+    },
+   {
+    "title" : "Thriller met Bart Debbaut",
+    "teacher" : "Bart Debbaut",
+    "image" : "img/docenten/Bart.Debbaut.jpg",
+    "description" : "tbc",
+    "bio" : "<strong>Bart Debbaut</strong> is de auteur van de thrillerreeks rond de Leuvense speurders Johan Leyssens en Mieke van Cattendyck. <em>De Facebookmoorden</em> werd door thrillerboek.nl verkozen tot Beste Nederlandstalige thriller."
+  }
 ]
