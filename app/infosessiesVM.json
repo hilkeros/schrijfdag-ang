@@ -1,13 +1,19 @@
 [
     {
-      "title" : "Fantasy: verbeelding aan de macht",
-      "image" : "img/docenten/Fantasy.jpg",
-      "description" : "<strong>11 tot 12u</strong><br/> Fantasy is een van de meest bloeiende literaire genres van het moment. Het succes van saga’s als <em>Songs of ice and fire</em> en de afgeleide TV-serie <em>Game of Thrones</em>, draagt daar zeker toe bij. Auteurs <strong>Guido Eekhaut</strong> en <strong>An Janssens</strong> schrijven fantasy en schetsen in hun romans een alternatieve fantastische wereld. Hoe pakken zij het aan? Ook <strong>Erik Heiser</strong>, de eerste en enige Vlaming die die befaamde Paul Harlandprijs won, één van de grootste verhalenwedstrijden in de verbeeldingsliteratuur ter wereld, deelt zijn ervaring."
-
+      "title" : "Hoe kweek je zitvlees?",
+      "teacher": "Valerie Eyckmans, Ellen Van Pelt en Cathy Camertijn",
+      "image" : "img/docenten/zitvlees.jpg",
+      "description" : "<br><strong>11.00u tot 12.00u</strong><br/> <br>Jezelf af en toe een paar uur extra tijd gunnen om te schrijven, heerlijk. Maar tussen het werken, huishouden, sporten en bijkletsen met vriend(inn)en door, komt het er niet altijd van. Nochtans is het ontzettend belangrijk om je schrijfspier warm te houden, even alles te vergeten en je enkel te focussen op het witte blad. Auteurs <strong>Valerie Eyckmans en <strong>Ellen Van Pelt</strong> vertellen hoe zij schrijftijd inbouwen in hun drukke leven. Droomversneller <strong>Cathy Camertijn</strong> van LEFNow geeft je advies om volop te gaan voor je eigen schrijfdroom. Na deze sessie ben je helemaal overtuigd dat ook zitvlees gedisciplineerde training nodig heeft."
+    },
+     {
+      "title" : "Van kleine vergoeding tot factuur<br/><br/>",
+      "image" : "img/docenten/kleine.vergoeding.jpg",
+      "description" : "<br><strong>12.00u tot 13.00u</strong><br/><br>Als beginnende schrijver is wat realiteitszin mooi meegenomen: de euro's zullen niet meteen binnenstromen. En als je al wat geld verdient, moet je ook nog rekening houden met btw, personenbelasting, enz. Het Sociaal Bureau voor Kunstenaars, t-heater, helpt je op weg. Je krijgt een overzicht van de manieren waarop je je kunt laten uitbetalen voor je schrijfwerk. Een doordachte blik op je portemonnee, dat is waar het in deze infosessie over gaat.<br/><br>Aansluitend kun je bij de consulent van t-heater terecht voor individueel advies. Vul je persoonlijke vraag in op het inschrijvingsformulier.<br/>"
     },
     {
-      "title" : "Uitgeven in eigen beheer<br/><br/>",
-      "image" : "img/docenten/Uitgeven.jpg",
-      "description" : "<strong>12 tot 13u</strong><br/> Heb je een roman, dichtbundel, een familieverhaal of non-fictie werk geschreven en wil je dat graag in boekvorm publiceren, dan zijn er vandaag de dag talloze mogelijkheden om dat zelf te doen. Print-on-demand diensten bestaan al enkele jaren en heel wat schrijvers maken er dankbaar gebruik van om hun eigen boek op de markt te brengen. Wat er allemaal precies bij uitgeven in eigen beheer komt kijken en wat de voor- en nadelen zijn, ontdek je tijdens de infosessie."
+      "title" : "Een blik in de writers’ room",
+      "teacher": "Marc Willems en Floris Schillebeeckx",
+      "image" : "img/docenten/Marc.Willems.jpg",
+      "description" : "<strong>12.15u tot 13.15u</strong><br/>Niet alleen in Hollywood, maar ook hier in Vlaanderen, schrijven scenaristen dramaseries in teamverband, want <em>teamwriting</em> leidt tot betere scripts. Dat doen ze in zogenaamde <em>writers' room</em>, waar ze samen het raamwerk van een aflevering bedenken. Ervaren scenaristen gunnen je een blik in de <em>writers' rooms</em>: <strong>Sanne Nuyens</strong>, één van de bedenkers van de serie Beau Séjour, <strong>Marc Willems</strong>, die o.a. meewerkt aan Aspe, Ghost Rockers en Familie en <strong>Floris Schillebeeckx</strong>, die scenario's schreef in opdracht van BTM en verschillende productiehuizen, getuigen. Een gesprek over samen brainstormen, karakterontwikkeling, het belang van dialogen en woord versus beeld."
     }
 ]

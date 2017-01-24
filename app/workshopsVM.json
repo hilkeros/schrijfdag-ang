@@ -1,23 +1,63 @@
 [
     {
-        "title" : "Column van idee tot resultaat",
+        "title" : "Op zoek in het archief: historische fictie",
+        "teacher" : "Beatrijs Peeters en Greet Bauweleers",
+        "image" : "img/docenten/Beatrijs.Peeters.jpg",
+        "description" : "Historische fictie is weer populair. In Vlaanderen verschenen recent onder meer <em>Woesten</em>, <em>Wil</em>, <em>Zoon in Congo</em> en <em>De Wattman</em>. Elk van die romans speelt zich af in een ver of minder ver verleden. Hoe doe je dat, geloofwaardige en meeslepende historische fictie schrijven? Hoe pak je de research aan? Hoe verlies je jezelf niet in historische details? En wat is voor een roman de meerwaarde van een historische setting? Tijdens deze workshop dompelen we je onder in het Antwerpse verleden en ga je op zoek naar iets dat je raakt. We starten met een grote groep in de leeszaal van het FelixArchief en splitsen dan op in kleinere groepjes. Aan de hand van een historische plek, gebeurtenis of een figuur die echt heeft geleefd, schrijf je enkele pittige scènes en krijg je het genre in de vingers.<br/> Je gaat in archiefstukken en geschreven bronnen op zoek naar figuren en gebeurtenissen uit het Antwerpse verleden. Die geven je inspiratie voor enkele pittige scènes. Een praktische training om het genre historische fictie beter in de vingers te krijgen.",
+        "bio" : "<br><strong>Beatrijs Peeters</strong>, auteur van <em>Vals nest</em>, is schrijfdocent aan het conservatorium van Hasselt en de academie in Haasrode.<br/> <strong>Greet Bauweleers</strong> is historica en auteur van o.m. <em>Gebroken</em>, een Antwerps moordmysterie. Onder haar pseudoniem Leen de Laere verschenen <em>In Vlaamse Velden</em>, het boek bij de gelijknamige serie en <em>Oorlogspost</em>, een dagboek dat jongeren een beeld geeft van het ‘gewone leven’ in Antwerpen tijdens de Eerste Wereldoorlog."
+    },
+    {
+        "title" : "Column van idee tot resultaat<br/><br/><br/>",
         "teacher" : "Jean-Paul Mulders",
         "image" : "img/docenten/Jean-Paul.Mulders.jpg",
-        "description" : "Hoe zoek je een thema? Hoe kies je een invalshoek? Hoe zet je rake observaties uit het alledaagse leven om in een geraffineerde column? Wat betekent het om een tegen een deadline te schrijven? Jean-Paul Mulders tref je al jaren aan op de voorlaatste pagina van Knack. Hij laat je kennismaken met de do’s-and-don’ts van het column schrijven.",
-        "bio" : "Jean-Paul Mulders schrijft columns voor Knack Weekend en De Morgen. Hij publiceerde onder andere de biografie van de dichter Jotie T’Hooft, non-fictie over de zoon van Adolf Hitler en een kinderboek <em>Het Pullalamonster</em>."
+        "description" : "Hoe zoek je een thema? Hoe kies je een invalshoek? Hoe zet je rake observaties uit het alledaagse leven om in een geraffineerde column? Wat betekent het om een tegen een deadline te schrijven? Jean-Paul Mulders tref je al jaren aan op de voorlaatste pagina van Knack. Hij laat je kennismaken met de <em>do’s-and-don’ts</em> van het column schrijven.",
+        "bio" : "<strong>Jean-Paul Mulders</strong> schrijft columns voor Knack Weekend en De Morgen. Hij publiceerde onder andere de biografie van de dichter Jotie T’Hooft, non-fictie over de zoon van Adolf Hitler en een kinderboek <em>Het Pullalamonster</em>."
     },
     {
         "title" : "Blijf plakken",
-        "teacher" : "Loesje",
-        "image" : "img/docenten/loesje.jpg",
-        "copyright" : "Loesje",
-        "description" : "Je kunt iets op honderd verschillende manieren zeggen. De kunst is om het zo te zeggen dat iedereen het hoort, mensen nieuwsgierig worden, reageren en zelfs mee gaan doen. Vanuit die filosofie maakt Loesje teksten die verschijnen op posters en het straatbeeld sieren. In deze workshop ontdek je je eigen creativiteit en ga je samen met anderen aan de slag om tot verrassende, humoristische, relativerende of strijdbare zinnen te komen die op posters verschijnen. Pure hersengymnastiek die gegarandeerd spitse vondsten oplevert."
+        "teacher" : "Een ervaren redacteur van Loesje België begeleidt deze sessie.",
+        "image" : "img/docenten/Loesje.jpg",
+        "copyright" : "Foto door Loesje",
+        "description" : "Je kunt iets op honderd verschillende manieren zeggen. De kunst is om het zo te doen dat iedereen het hoort, mensen nieuwsgierig worden, reageren en zelfs mee gaan doen. Vanuit die filosofie maakt Loesje teksten die verschijnen op posters en het straatbeeld sieren. In deze workshop ontdek je je eigen creativiteit en ga je samen met anderen aan de slag om tot verrassende, humoristische, relativerende of strijdbare zinnen te komen die op posters verschijnen. Pure hersengymnastiek die gegarandeerd spitse vondsten oplevert."
     },
     {
         "title" : "Schrijven voor theater: uit de startblokken i.s.m. Wisper",
         "teacher" : "Pieter Delfosse",
         "image" : "img/docenten/Pieter.Delfosse.jpg",
-        "description" : "We gooien onszelf in de praktijk van het theaterschrijven door vooral te doen, doen, doen. We hebben extra aandacht voor het overwinnen van die vaak lastige schrijfstart. Hoe geraken we voorbij die hoge verwachtingen en vervelende zelfcensuur die ons in de startblokken doen blokkeren? Tegelijkertijd laten we ons richting geven door een brede waaier aan inspiratiebronnen. Alles om ons heen kan een vonk voor een nieuwe tekst zijn. Van een gesprek met de buurman tot de plant in de hoek van de kamer.",
+        "description" : "We gooien onszelf in de praktijk van het theaterschrijven door vooral te doen. We hebben extra aandacht voor het overwinnen van die vaak lastige schrijfstart. Hoe raken we voorbij die hoge verwachtingen en vervelende zelfcensuur die ons blokkeren in de startblokken? Tegelijkertijd laten we ons leiden door een brede waaier aan inspiratiebronnen. Alles om ons heen kan een vonk voor een nieuwe tekst zijn. Van een gesprek met de buurman tot de plant in de hoek van de kamer.",
         "bio" : "<strong>Pieter Delfosse</strong> studeerde af aan de opleiding Schrijven aan het RITS. Hij werkt als freelance schrijf- en speldocent. Momenteel voltooit hij de opleiding theatermaker/theaterdocent aan de toneelacademie Maastricht."
+    },
+    {
+        "title" : "Op zoek naar de havenstad van weleer: schrijfwandeling",
+        "teacher" : "Leen van den Berg en Peter Hoste",
+        "image" : "img/docenten/Leen.van.den.Berg.jpg",
+        "description" : "Samen met docent <strong>Leen van den Berg</strong> ga je op wandel langs de oude dokken. Je duikt onder in de maritieme geschiedenis van de stad, in het leven van dokwerkers, zakkennaaisters, lichtekooien, natiebazen en stoomschepen die naar Congo vertrokken. Jij zet al je zintuigen open en verwerkt de indrukken in enkele pittige scènes.<br/> Tijdens deze schrijfwandeling dompelen we je onder in het verleden. Ga op zoek naar iets dat je raakt. We starten met een grote groep in de leeszaal van het FelixArchief, waar je een introductie krijgt in geloofwaardige en meeslepende historische fictie. Vervolgens splitsen we op in kleinere groepejes en trekken we naar de dokken.",
+        "bio" : "<br><strong>Leen van den Berg</strong>, auteur van o.m. de historische roman <em>Zoon in Congo</em>, is docent creatief schrijven (in Vlaanderen, Zuid-Afrika en Suriname) en historica.<br/> <strong>Peter Hoste</strong> is historicus en stadsgids bij Carpe Diem."
+    },
+    {
+        "title" : "Op zoek naar een beter leven: schrijfwandeling",
+        "teacher" : "Judith Anaf",
+        "image" : "img/docenten/Judith.Anaf.jpg",
+        "description" : "Samen met schrijfdocent <strong>Judith Anaf</strong> en een gids ga je op stap in het Red Star Line museum. Je maakt er een bewogen reis in de voetsporen van de mensen die vanaf 1800 hun hele leven in enkele koffers pakten en vervolgens naar Amerika reisden. Boeiende en persoonlijke verhalen vergezellen je tijdens de overtocht. Je beleeft het afscheid en de obstakels, maar ook het avontuur en de hoop op een nieuw leven aan de andere kant van de oceaan. Je zet al je zintuigen open en verwerkt de indrukken in enkele pittige scènes historische fictie.",
+        "bio" : "<strong>Judith Anaf</strong> is schrijfdocent, heeft een master geschiedenis en European Studies en is communicatieverantwoordelijke in een Brussels gemeenschapscentrum en copywriter."
+    },
+    {
+        "title" : "Intro tot impro",
+        "teacher" : "Sascha Reunes",
+        "image" : "img/docenten/Sascha.Reunes.jpg",
+        "description" : "Hoe kom je tot woorden op papier als je niet zo goed Nederlands spreekt? Schrijfdocente <strong>Sascha Reunes</strong> laat je volop je eigen expressie beleven. Tijdens deze actieve sessie leer je om losser in je lijf te zitten, minder te denken, meer te voelen en te vertrouwen op je impuls. De kleine jongen of het kleine meisje in jou zijn je nu al dankbaar voor je deelname.",
+        "bio" : "<strong>Sascha Reunes</strong> speelt bij de Belgische Improvisatie Liga (BIL). Ze schrijft ook podiumteksten en won in 2012 de publieksprijs tijdens de finale van het Belgisch Kampioenschap Poetry Slam."
+    },
+    {
+        "title" : "Het imperfecte lijf",
+        "teacher" : "Barbara van den Eynde",
+        "image" : "img/docenten/Barbara.Van.den.Eynde.jpg",
+        "description" : "Een schrijfontmoeting tussen beginnende dichters, tussen mensen met en zonder beperking, verenigd met één gezamenlijke goesting: het schrijven van een gedicht. We denken samen na over wat een lijf perfect maakt en of dat perfecte lijf wel bestaat of gewenst is. Een kennismaking, zonder taboes. Door kleine schrijfoefeningen en observaties komen we tot een woordstorm die later uitmondt in een gedicht. De feedback van schrijfdocente <strong>Barbara Van den Eynde</strong> en van de medecursisten geeft je inspiratie om thuis verder te gaan schrijven.",
+        "bio" : "<strong>Barbara Van den Eynde</strong> is docent creatief schrijven en museumgids. Ze geeft schrijflessen voor volwassenen, kinderen en jongeren. "
+    },
+     {
+        "title" : "Meet and greet met Jeroen Olyslaegers",
+        "image" : "img/docenten/Jeroen.Olyslaegers.jpg",
+        "description" : "<br><strong>11.00u-12.00u en 12.15u-13.15u</strong><br/> Jeroen Olyslaegers schrijft columns, theaterteksten en proza. Met zijn romans <em>WIJ</em> en <em>WINST</em> maakte hij zijn entree in de Nederlandse letteren. In 2014 ontving hij de Arkprijs van het Vrije Woord voor zijn werk en maatschappelijk engagement en de Edmond Hustinxprijs voor zijn theateroeuvre. In 2015 verscheen de roman <em>Wil</em>. Die werd zowel in Vlaanderen als in Nederland laaiend onthaald. ‘Olyslaegers heeft hem te pakken, zijn Grote Roman’, schreef De Standaard. En ook in het buitenland is het enthousiasme groot. <em>Wil</em> wordt vertaald in het Duits, Frans, Engels en Tsjechisch. Bij een kop koffie of een glaasje cava gaat Jeroen Olyslaegers graag met jou in gesprek over zijn schrijfproces en over de kleine en grote stappen in zijn schrijfcarrière."
     }
 ]

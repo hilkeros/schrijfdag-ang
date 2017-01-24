@@ -5,20 +5,20 @@
       "image" : "img/docenten/Gie.Bogaert.jpg",
       "copyright" : "Koen Broos",
       "description" : "De kunst van het schrijven schuilt in de voorbereiding. Wie een roman wil schrijven, zet best eerst alle ingrediënten klaar. Dat veronderstelt het maken van de juiste keuzes. Tijdens de lezing wordt een werkmethode voorgesteld op grond van de basiselementen van het verhaal (personages, situatie, thema, decor), de intrige (verhaalontwikkeling, perspectief, tijd, begin-slot en scènebouw) en stilistische variaties.",
-      "bio" : "<strong>Gie Bogaert</strong> is romanschrijver en prozadocent aan SchrijversAcademie. In 2016 verscheen bij De Bezige Bij zijn elfde boek: de mozaïekroman <em>Roosevelt</em>."
+      "bio" : "<strong>Gie Bogaert</strong> is romanschrijver en prozadocent aan SchrijversAcademie. In 2016 verscheen bij De Bezige Bij zijn elfde boek: de mozaïekroman <em>Roosevelt</em>.  "
     },
     {
-      "title" : "Bloggen in stijl",
+      "title" : "Bloggen in stijl<br/><br/>",
       "teacher" : "Barbara de Munnynck",
       "image" : "img/docenten/Barbara.de.Munnynck.jpg",
-      "description" : "Blogs zijn meer geworden dan een online dagboek. Van foodblogs over DIY-blogs tot mamablogs: in alle soorten schieten ze als paddenstoelen uit de grond. Waarom spreken sommige blogs aan en blijven anderen onzichtbaar? Hoe kies je een onderwerp voor je blog? Hoe bouw je teksten op en ontwikkel je een eigen schrijfstijl? Hoe bouw je een post op en wat delen je wel en wat niet?",
+      "description" : "Blogs zijn meer geworden dan een online dagboek. Van foodblogs over DIY-blogs tot mamablogs: in alle soorten schieten ze als paddenstoelen uit de grond. Waarom spreken sommige blogs aan en blijven andere onzichtbaar? Hoe kies je een onderwerp voor je blog? Hoe bouw je teksten op en ontwikkel je een eigen schrijfstijl? Hoe bouw je een post op en wat deel je wel en wat niet?",
       "bio" : "<strong>Barbara De Munnynck</strong> werkt als zelfstandig journaliste en tekstschrijver. Ze is een van de initiatiefneemsters van boekenblog 'This Is How We Read'."
     },
-   {
-    "title" : "Thriller met Bart Debbaut",
-    "teacher" : "Bart Debbaut",
-    "image" : "img/docenten/Bart.Debbaut.jpg",
-    "description" : "tbc",
-    "bio" : "<strong>Bart Debbaut</strong> is de auteur van de thrillerreeks rond de Leuvense speurders Johan Leyssens en Mieke van Cattendyck. <em>De Facebookmoorden</em> werd door thrillerboek.nl verkozen tot Beste Nederlandstalige thriller."
-  }
+     {
+      "title" : "Thriller schrijven",
+      "teacher" : "Toni Coppers",
+      "image" : "img/docenten/Toni.Coppers.jpg",
+      "description" : "Toni Coppers is momenteel een van de meest populaire misdaadauteurs van Vlaanderen. Hij publiceerde elf titels met het pittige personage Liese Meerhout in de hoofdrol. Liese staat voor een vrouwelijke toets en een frisse wind in het Vlaamse thrillerlandschap. Toni bewerkte de populaire boekenreeks tot een 13-delige serie die te zien was op VTM. Hij laat je tijdens deze lezing ontdekken hoe je sluitende verhalen bedenkt, spanning opbouwt en een personage vorm geeft. Hij focust zich op de opeenvolgende stappen in een echt moordonderzoek.",
+      "bio" : "Misdaadauteur <strong>Toni Coppers</strong> won in 2014 de Hercule Poirot-prijs met <em>Dood water</em> en werd genomineerd voor De Gouden Strop 2015. <em>Het laatste oordeel</em> was een bestseller. Met <em>De vleermuismoorden</em> en <em>De hondenman</em> won hij tweemaal op rij de publieksprijs van de Hercule Poirot-prijs. "
+    }
 ]
