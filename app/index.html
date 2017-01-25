@@ -64,15 +64,11 @@
     <!--<p><a href="#timetable">Klik hier voor het dagschema.</a></p>-->
     <p><a href="#workshops">WORKSHOPS</a> - <a href="#lezingen">LEZINGEN</a> - <a href="#infosessies">INFOSESSIES</a> - <a href="#feedback">FEEDBACK</a></p>
 
-    <p>We lichten graag al een tipje van de sluier. Het programma is echter nog niet volledig. Houd deze site in de gaten, want we voegen de komende dagen nog een aantal namen toe.</p>
-
     <div class="container anchor" id="workshops">
       <div class="row">
         <div class="col-xs-12 col-md-offset-6 col-md-6">
           <h2>Workshops</h2>
           <p>In een groep met maximaal 20 deelnemers spit je samen met een vakspecialist een bepaald onderwerp dieper uit en klim je vervolgens in je pen om een nieuw fragment te schrijven en mogelijk ook te delen met de groep. <em>A little less conversation, a little more action.</em></p>
-
-          <p>Ook dit jaar organiseren wij schrijfwandelingen. Dit is een ideale manier om de bruisende stad Antwerpen op een nieuwe manier te leren kennen. Terwijl een gids je de mooiste verhalen over de stad van Brabo vertelt, je in een verlaten straatje verdwaalt of een indrukwekkend gebouw je inspireert, kun je jouw verhalen neerpennen in verhalen over bijzondere plekken.</p>
         </div>
       </div>
 
@@ -320,18 +316,20 @@
         </div>
       </div>
     </div>
-
+-->
     <div class="container anchor" id="ontdek">
       <div class="row">
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 col-md-offset-6">
           <h2>Ontdek</h2>
         </div>
       </div>
 
       <div class="row" ng-controller="OntdekCtrl">
+        <div class="filler" ng-class="fillerClass">
+        </div>
         <div class="workshop-container" ng-class="workshopContainerClass">
 
-          <div ng-repeat="workshop in workshops" id="ontdek-{{$index}}" class="col-xs-12 anchor" ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
+          <div ng-repeat="workshop in workshops" id="ontdek-{{$index}}" class="col-xs-12 anchor " ng-class="(selectedWorkshop === workshop) ? 'col-md-8' : unselectedPanel">
             <div class="panel">
               <div class="title" ng-click="toggleDetail(workshop)">
                 <a href ng-bind-html="workshop.title"></a>
@@ -351,7 +349,7 @@
         </div>
       </div>
     </div>
-
+<!--
     <div class="container anchor" id="timetable">
       <h2>Dagschema</h2>
         <div class="table-responsive">
@@ -468,6 +466,8 @@
     <p>Wij zijn natuurlijk ook nieuwsgierig naar jouw favoriete zin. Welke zin vloeide uit jouw pen waar je trots op bent? Na welke dacht dacht je ‘dat is het pareltje dat goed klinkt, dat swingt, raakt en smaakt naar nog meer zinnen? Stuur voor 15 februari 2017 jouw zelfgeschreven zin in op <a href='http://azertyfactor.be' target='_blank'>Azertyfactor.be</a>.</p>
     <p>We presenteren de tien beste zinnen als literaire tattoo op de Schrijfdag. De winnaar krijgt de hoofdrol in een filmpje en een prijzenpakket met onder andere een driedelig dikke Van Dale.</p>
 
+    <img src="img/wedstrijd.jpg">
+
   </div>
 
   <div id="locatie" class="container anchor separator">
@@ -480,6 +480,8 @@
 
     <p><a href='https://www.antwerpen.be/nl/overzicht/felixarchief/praktisch-3/hoe-komt-u-best-naar-het-felixarchief' target='_blank'>Wegbeschrijving</a></p>
 
+    <img src="img/FelixPakhuis.jpg">
+
     <p>Een aantal workshops vinden ook plaats in Het Bos, een jeugdcultuurcentrum en multidisciplinaire kunstenwerkplaats die niet alleen aan kunst, maar ook aan koffie, soep, biopils, tooghang, gekeuvel en feest doet.</p>
 
     <p>Meld je zeker even aan in het Felix Pakhuis, alvorens je naar Het Bos gaat.</p>
@@ -487,11 +489,14 @@
     <p><strong>Het Bos, Ankerrui 5-7, 2000 Antwerpen</strong></p>
 
     <p><a href='http://www.hetbos.be/info/Praktisch/#route' target='_blank'>Wegbeschrijving</a></p>
-    <br/><br/>
+    <br/>
     <p>Toegankelijkheid:</p>
-    <p>Rolstoeltoegankelijk, ook het MAS en het Red Star Line-museum</p>
-    <p>Assistentie of een tolk Vlaamse Gebarentaal nodig? Stuur een mail naar <a href="mailto:info@creatiefschrijven.be">info@creatiefschrijven.be</a></p>
-
+    <ul>
+      <li>Rolstoeltoegankelijke locatie/wifi.</li>
+      <li>Tolk Vlaamse Gebarentaal op aanvraag.</li>
+      <li>Assistentie mogelijk van en naar het station op aanvraag.</li>
+      <li>Personen met een visuele beperking nemen best laptop of iPad mee.</li>
+    </ul>
   </div>
 
   <div id="inschrijven" class="container  anchor separator">
@@ -500,8 +505,8 @@
     <p><strong>Inclusief: goodiebag, ontvangstkoffie, feestelijke lunch en receptie in het restaurant van het Felix Pakhuis waar gastronomie en huiselijke gezelligheid centraal staan.</strong></p>
 
     <ul>
-      <li>€ 30: jonger dan 26</li>
-      <li>€ 50: abonnees op VERZIN, leden Literaire Loge, leden VFG, Sesam</li>
+      <li>€ 30: jonger dan 26 en VFG-leden</li>
+      <li>€ 50: abonnees op VERZIN, leden Literaire Loge, Sesam</li>
       <li>€ 55: standaardprijs</li>
       <li>€ 65: ticket Schrijfdag + abonnement op VERZIN, het magazine voor schrijfliefhebbers</li>
     </ul>
